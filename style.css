@@ -1,0 +1,51 @@
+body {
+  background-color: black;
+}
+
+.logo__link {
+  background-color: red;
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+.logo__link:hover {
+  color: black;
+}
+
+.logo {
+  display: flex;
+}
+
+.video_row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}d
+
+.info__video {
+  border-radius: 1px;
+  border-color: #ccc;
+  border-style: solid;
+  margin: 20px;
+  padding: 1px;
+  width: 560px;
+  background-color: #333333;
+  color: #fff;
+}
+
+.desc {
+  margin: 10px;
+  margin-bottom: 0px;
+}
+
+.video__name {
+  margin: 10px;
+}
+
+input {
+  margin: 10px;
+  margin-top: 0px;
+}
